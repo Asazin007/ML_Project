@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 from typing import List
-
+# In Python, setup.py is a module used to build and distribute Python packages. It typically contains information about the package, such as its name, version, and dependencies, as well as instructions for building and installing the package. 
 HPHEN_E_DOT ='-e .'
 def get_requirements(file_path:str)->List[str]:
     '''
@@ -9,7 +9,7 @@ def get_requirements(file_path:str)->List[str]:
     requirements =[]
     with open(file_path) as file_obj:
         requirements = file_obj.readlines()
-        requirements=[req.replace("/n","") for req in requirements]
+        requirements=[req.replace("\n","") for req in requirements]
         if HPHEN_E_DOT in requirements:
             requirements.remove(HPHEN_E_DOT)
     return requirements
