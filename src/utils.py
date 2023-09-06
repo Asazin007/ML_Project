@@ -1,7 +1,6 @@
 # Python Utils is a collection of small Python functions and classes which make common patterns shorter and easier. It is by no means a complete collection but it has served me quite a bit in the past and I will keep extending it.
 import os
 import sys
-
 import numpy as np 
 import pandas as pd
 import dill
@@ -26,6 +25,8 @@ def save_object(file_path, obj):
 def evaluate_models(X_train, y_train,X_test,y_test,models,param):
     try:
         report = {}
+        
+        
 
         for i in range(len(list(models))):
             model = list(models.values())[i]
