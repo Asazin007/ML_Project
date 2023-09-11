@@ -1,5 +1,7 @@
 # Student Performance Predictor
 A Machine Learning project in Python that predicts student performance based on various parameters. This project showcases proficiency in machine learning algorithms, data analysis, and the application of ML techniques to real-world problems. It utilizes a dataset containing information about students' gender, race/ethnicity, parental level of education, lunch type, test preparation course completion, and scores in math, reading, and writing.
+### URL: 
+https://mathsscoreprediction.azurewebsites.net/predictdata
 
 ## Features
 
@@ -12,6 +14,7 @@ A Machine Learning project in Python that predicts student performance based on 
 - Dataset included for analysis.
 
 ## Screenshot 
+![On Azure Server](https://github.com/Asazin007/ML_project/blob/main/Screenshot/Screenshot%20(336).png)
 
 ## Table of Contents
 
@@ -26,8 +29,8 @@ A Machine Learning project in Python that predicts student performance based on 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YourUsername/Student-Performance-Predictor.git
-   cd Student-Performance-Predictor
+   git clone https://github.com/Asazin007/ML_project.git
+   cd gh repo clone Asazin007/ML_project
    ```
 
 2. Install the required Python libraries:
@@ -41,10 +44,10 @@ A Machine Learning project in Python that predicts student performance based on 
 1. Run the Flask web application:
 
    ```bash
-   python app.py
+   python application.py
    ```
 
-2. Open a web browser and go to `http://localhost:5000` to access the Student Performance Predictor.
+2. Open a web browser and go to `http://localhost:5000/predictdata` to access the Student Performance Predictor.
 
 3. Enter the required parameters from the dataset, and the model will predict the student's performance.
 
