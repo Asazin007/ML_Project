@@ -1,7 +1,7 @@
 # Student Performance Predictor
 A Machine Learning project in Python that predicts student performance based on various parameters. This project showcases proficiency in machine learning algorithms, data analysis, and the application of ML techniques to real-world problems. It utilizes a dataset containing information about students' gender, race/ethnicity, parental level of education, lunch type, test preparation course completion, and scores in math, reading, and writing.
 ### URL: 
-https://mathsscoreprediction.azurewebsites.net/predictdata
+https://mathsscore.azurewebsites.net/predictdata
 
 ## Features
 
