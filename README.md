@@ -29,8 +29,8 @@ https://mathsscore.azurewebsites.net/predictdata
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Asazin007/ML_project.git
-   cd gh repo clone Asazin007/ML_project
+   git clone https://github.com/Asazin007/Maths-Score-Predicter.git
+   cd gh repo clone Asazin007/Maths-Score-Predicter.git
    ```
 
 2. Install the required Python libraries:
